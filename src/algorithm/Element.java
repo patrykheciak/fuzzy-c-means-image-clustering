@@ -17,4 +17,10 @@ public class Element {
 	 * An array (vector) of attributes of the element.
 	 */
 	public int[] atrributes;
+	
+	public static Element setAttributes(int[] attributes){
+		Element element = new Element();
+		element.atrributes = attributes;
+		return element;
+	}
 }
